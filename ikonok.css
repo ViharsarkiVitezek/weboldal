@@ -1,0 +1,25 @@
+svg {
+    fill: white;
+    height: 50px;
+    transition: transform .5s, fill .5s ease-in-out;
+    filter: brightness(100%);
+}
+
+
+.kapcs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+
+
+
+.kapcs svg:hover {
+    fill: #ea5911;
+    transform: scale(1.2);
+
+
+}

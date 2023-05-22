@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a02080c4c6.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Viharsarki Vitézek</title>
+  </head>
+  <body>
+    
+    
+    <header>
+
+        <nav>
+        <a href="index.html">Főoldal</a>
+        <a href="edzes.html">Edzések</a>
+        <a href="kapcs.html">Kapcsolat</a>
+        <a href="info.html">Infó</a>
+        <a href="tort.html">Történetünk</a>
+        <a href="kártyák.html">Játékosaink</a>
+  </nav>
+
+</header>
+
+
+ 
+
+<div class="torzs" >
+  <div class="ido">
+    <h2>Edzések időpontjai</h2>
+      <div id="dates">
+        <ul>Kedd: 19:00, 5700 Gyula, Nürnbergi utca 2. (5. Számú Általános Iskola és Sportiskola)</ul>
+    
+        <ul>Csütörtök: 19:00, 5700 Gyula, Nürnbergi utca 2. (5. Számú Általános Iskola és Sportiskola)</ul>
+      </div>
+      </div>
+
+        <h2>Galéria:</h2>
+      
+        <div class="gallery">
+        
+          <div class="column">
+            <img src="img/edzés1.jpg" alt="none"  onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+          </div>
+
+          <div class="column">
+            <img src="img/robi.jpg" alt="none"  onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/edzés3.jpg" alt="none"  onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/edzés4.jpg" alt="none"  onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto1.jpg" alt="none"  onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto2.jpg" alt="none"  onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto3.jpg" alt="none"  onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto4.jpg" alt="none"  onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto5.jpg" alt="none"  onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto6.jpg" alt="none"  onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto7.jpg" alt="none" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto8.jpg" alt="none"  onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/csoport1.jpg" alt="none"  onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto9.jpg" alt="none"  onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto11.jpg" alt="none"  onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/csoport2.jpg" alt="none"  onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto10.jpg" alt="none"  onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/csoport3.jpg" alt="none"  onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto12.jpg" alt="none"  onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto13.jpg" alt="none"  onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto14.jpg" alt="none"  onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto15.jpg" alt="none"  onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto16.jpg" alt="none"  onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
+
+          </div>
+          <div class="column">
+
+            <img src="img/foto18.jpg" alt="none"  onclick="openModal();currentSlide(24)" class="hover-shadow cursor">
+
+          </div>
+
+
+        </div>
+
+
+
+      
+        
+
+     
+        
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+        
+            <div class="mySlides">
+              <div class="numbertext">1 / 24</div>
+              <img src="img/edzés1.jpg" style="width:100%; ;">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">2 / 24</div>
+              <img src="img/robi.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">3 / 24</div>
+              <img src="img/edzés3.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+              <div class="numbertext">4 / 24</div>
+              <img src="img/edzés4.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">5 / 4</div>
+              <img src="img/foto1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">6 / 24</div>
+              <img src="img/foto2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">7 / 24</div>
+              <img src="img/foto3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">8 / 24</div>
+              <img src="img/foto4.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">9 / 24</div>
+              <img src="img/foto5.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">10 / 24</div>
+              <img src="img/foto6.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">11 / 24</div>
+              <img src="img/foto7.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">12 / 24</div>
+              <img src="img/foto8.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">13 / 24</div>
+              <img src="img/csoport1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">14 / 24</div>
+              <img src="img/foto9.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">15 / 24</div>
+              <img src="img/foto11.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">16 / 24</div>
+              <img src="img/csoport2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">17 / 24</div>
+              <img src="img/foto10.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">18 / 24</div>
+              <img src="img/csoport3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">19 / 24</div>
+              <img src="img/foto12.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">20 / 24</div>
+              <img src="img/foto13.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">21 / 24</div>
+              <img src="img/foto14.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">22 / 24</div>
+              <img src="img/foto15.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">23 / 24</div>
+              <img src="img/foto16.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">24 / 24</div>
+              <img src="img/foto18.jpg" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+        
+        
+         
+          </div>
+        </div>
+        <center><img class="botton_logo" src="img/VV_felirat_feher.png" alt="none" title="Logó"></center>
+       
+</div>
+
+
+
+
+
+</body>
+
+
+
+
+<script>
+  function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+
+function workDates() {
+ document.getElementById('dates').style.display = 'block'
+ document.getElementById('down').style.display = 'none'
+ document.getElementById('up').style.display = 'flex'
+}
+
+function dateReverse() {
+  document.getElementById('dates').style.display = 'none'
+  document.getElementById('down').style.display = 'flex'
+ document.getElementById('up').style.display = 'none'
+
+}
+</script>
+</html>
