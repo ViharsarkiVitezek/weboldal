@@ -8,6 +8,11 @@ body {
     padding: 0;
 }
 
+#iframe {
+    height: calc(100vh - 95px) !important;
+    width: 100% !important;
+}
+
 
 
 .botton_logo {
@@ -74,7 +79,7 @@ nav a:hover::after {
 }
 
 
-.torzs {
+main {
     font-family: Arial, Helvetica, sans-serif;
     margin: 2em;
     padding: 2em;
@@ -366,7 +371,7 @@ svg {
         height: 150px;
     }
 
-    .torzs {
+    main {
         margin: 0;
     }
 
