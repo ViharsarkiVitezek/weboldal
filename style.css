@@ -79,6 +79,11 @@ nav a:hover::after {
 
 }
 
+li {
+    list-style: none;
+    margin: 20px;
+}
+
 
 main {
     font-family: Arial;
